@@ -12,32 +12,36 @@
 
 {% block content %}
 <main role="main">
-  <div class="jumbotron text-center">
-    <h1 class="display-3">Welcome to <span class="brand-text">Milestone Floristry</span></h1>
-    <p class="lead">Making occasions with flowers</p>
-    <hr class="my-2">
-    <p class="lead">
-      “A flower does not think of competing to the flower next to it. It just blooms”.<strong>Zen Shin</strong>.
-    </p>
-    <p class="lead mt-5">
-      Independent florist located in Fulham London, creating cut & artificial flower arrangements for events,
-      occasions and celebrations.
-    </p>
+
+  <div class="jumbotron jumbotron text-center jumbotron-bg rounded-0 px-0">
+    <div class="transbox"></div>
+    <!-- <div class="transbox px-2"></div> -->
+    <div class="container">
+      <h1 class="display-3">Welcome to <span class="brand-text">Milestone Floristry</span></h1>
+      <p class="lead index-text">Making occasions with flowers</p>
+      <hr class="my-2">
+      <p class="lead index-text">
+        “A flower does not think of competing to the flower next to it. It just blooms”.<strong>Zen Shin</strong>.
+      </p>
+      <p class="lead index-text my-5">
+        Independent florist located in Fulham London, creating cut & artificial flower arrangements for events,
+        occasions and celebrations.
+      </p>
+    </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="card border-0 shadow-sm">
+  <div class="container mb-5">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-8">
+        <div class="card border-0 shadow-sm offset">
           <div class="card-body">
-            <span class="brand--text"> Milestone Floristry </span> works with you to develop custom bloom
-            arrangements to compliment any occasion. Fairly priced to reflect all price ranges as i truly believe,
-            No occasion should be without flowers.
+            <p class="lead index-page-text"><span class="brand--text"> Milestone Floristry </span> works with you to develop custom bloom
+              arrangements to compliment any occasion. Fairly priced to reflect all price ranges as i truly believe,
+              No occasion should be without flowers.</p>
           </div>
         </div>
-        <a href="" class="shop-now-button btn btl-lg rounded-0 text-uppercase py-3">shop now</a>
+        <a href="#" class="shop-now-button btn btn-lg rounded text-uppercase py-3">shop now</a>
       </div>
     </div>
   </div>
-
 </main>
 {% endblock %}
