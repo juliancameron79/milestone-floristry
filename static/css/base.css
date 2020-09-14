@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: calc(100vh - 164px);
+  color: #696868;
+  font-family: 'Raleway', sans-serif;
+}
+.jumbotron-bg {
+  background: url('/media/backgound_flowers.jpg');
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+  z-index: -2;
+}
+
+/* from Bulma */
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.logo-font {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.main-logo-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.shop-now-button {
+  background: #412025;
+  color: white;
+  min-width: 260px;
+}
+
+.btn-rose-gold {
+  background: #412025;
+  color: white;
+}
+
+.shop-now-button:hover,
+.shop-now-button:active,
+.shop-now-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+  background: #b76e79;
+  color: white;
+}
+
+a.nav-link {
+  color: #412025 !important;
+  font-weight: 600;
+}
+
+a.nav-link:hover,
+a.nav-link:active,
+a.nav-link:focus {
+  color: #b76e79;
+}
+
+.footer-text-title,
+.footer-link,
+.text-rose-gold {
+  font-weight: bold;
+  color: #412025 !important;
+}
+
+.border-rose-gold {
+  border: 1px solid #b76e79 !important;
+}
+
+.bg-pink {
+  background: #f8cae1 !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 360px) {
+  .fixed-top-desktop-only {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  .header-container {
+    padding-top: 164px;
+  }
+}
+/* Main page footer */
+.copy-right-container {
+  background-color: #f1f1f1 !important;
+}
+
+.footer-link-text:hover,
+.footer-link-text:active,
+.footer-link-text:focus {
+  text-decoration: none;
+  color: #2b2a2a;
+}
+
+.footer-link-title,
+.footer-link-text {
+  color: #696868;
+}
+
+.copy-right-text {
+  margin: 0;
+}
+
+/* Index Page */
+.offset {
+  top: -80px;
+}
+
+.transbox {
+  background-color: #000;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+span.brand--text,
+p.index-page-text {
+  color: #412025 !important;
+  font-weight: 500;
+}
