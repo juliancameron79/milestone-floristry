@@ -1,0 +1,254 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "The Kindness",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 26.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "the_kindness_181add6366f848a4ec7b9302d032ea24_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340255",
+      "name": "The Serenity",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 29.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "the_serenity_0012_1_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340355",
+      "name": "The Friendship",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 26.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "the_friendship_0034_1_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340455",
+      "name": "Thinking of You",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 27.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "thinking_of_you_64f8f6be1aab65a2d9b626d23de380b4_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340555",
+      "name": "Sunflowers",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 27.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "sunflowers_4659b23090b3a5312a059ba964a01ad7_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340655",
+      "name": "Mixed Gladioli",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 26.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "mixed-gladioli_304a010f0276055c2bf64cb91dfb8438_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340755",
+      "name": "Mixed Lisianthus",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 29.98,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "mixed_lisianthus_40612d29ad82a41de460d67a100b9337_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340855",
+      "name": "Indian Summer",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 32.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "indian_summer_8098f0c225ea8a02a3e87b60ce8882c1_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340955",
+      "name": "Happy Birthday",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 27.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "happy_birthday_e22d6e1a56f843ff9d17d7a5d4d686ae_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001341155",
+      "name": "Golden Autumn",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 41.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "golden_autumn_4923e9c4ed38c1266ba0d114f2711fe4_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001342255",
+      "name": "Cookies and Cream",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 47.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "cookies_and_cream_48835be5a7cc4656b72621bdc74f03c6_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001342355",
+      "name": "celebration",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 37.98,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "celebration_b37160d8d69c94b2dc1669cb8a4db110_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001342455",
+      "name": "Annabelle",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "annabelle_9829e9629b47d82b2b9470d2097c7cee_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001342555",
+      "name": "Lemon Queen",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "lemon_queen_8f01c6d0e0cbc7547eb0626501cd64bb_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001343655",
+      "name": "Nothing Hill",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "notting_hill_24bc03284e53762a48696a5b89de3c9f_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001344755",
+      "name": "Persuasion",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "persuasion_6f488d892439967311d8871b54713aad_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001345855",
+      "name": "Purple Mystery",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "purple_mystery_7bca96d290ee88d265c0d5df1ffc86d3_1280x1280_crop_center.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001346955",
+      "name": "Violetta",
+      "description": "Fusce fermentum odio nec arcu. Praesent vestibulum dapibus nibh. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Phasellus dolor.",
+      "price": 74.98,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "",
+      "image": "violetta_b6ebf7ed8d532bb1219b5a904c14a802_1280x1280_crop_center.jpg"
+    }
+  }
+]

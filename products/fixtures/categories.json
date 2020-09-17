@@ -1,0 +1,13 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": { "name": "luxury_bouquets", "friendly_name": "Luxury Bouquets" }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": { "name": "hand_tied_bouquets", "friendly_name": "Hand-Tied Bouquets" }
+  },
+  { "pk": 3, "model": "products.category", "fields": { "name": "florist_choice", "friendly_name": "Florist Choice" } }
+]
