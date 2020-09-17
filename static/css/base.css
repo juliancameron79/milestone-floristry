@@ -7,6 +7,7 @@ body {
   color: #696868;
   font-family: 'Raleway', sans-serif;
 }
+
 .jumbotron-bg {
   background: url('/media/backgound_flowers.jpg');
   background-size: cover;
@@ -42,11 +43,15 @@ body {
   min-width: 260px;
 }
 
+.search-now-button,
 .btn-rose-gold {
   background: #412025;
   color: white;
 }
 
+.search-now-button:hover,
+.search-now-button:active,
+.search-now-button:focus,
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -62,10 +67,10 @@ a.nav-link {
   font-weight: 600;
 }
 
-a.nav-link:hover,
-a.nav-link:active,
-a.nav-link:focus {
-  color: #b76e79;
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #b76e79 !important;
 }
 
 .footer-text-title,
@@ -81,6 +86,14 @@ a.nav-link:focus {
 
 .bg-pink {
   background: #f8cae1 !important;
+}
+
+.bg-main-nav-dropdown {
+  background: #f8f1f2 !important;
+}
+
+.bg-delivery-banner {
+  background: #b76e79 !important;
 }
 
 /* -------------------------------- Media Queries */
@@ -102,7 +115,7 @@ a.nav-link:focus {
     z-index: 1030;
   }
   .header-container {
-    padding-top: 164px;
+    padding-top: 180px;
   }
 }
 /* Main page footer */
