@@ -67,6 +67,10 @@ a.nav-link {
   font-weight: 600;
 }
 
+.text-rose-g {
+  color: #412025 !important;
+}
+
 .nav-link:hover,
 .nav-link:active,
 .nav-link:focus {
@@ -143,6 +147,18 @@ a.text-rose-gold {
 a.category-badge > span.badge:hover {
   background: #b76e79 !important;
   color: #fff !important;
+}
+
+.btt-button {
+  height: 42px;
+  width: 42px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.btt-link {
+  cursor: pointer;
 }
 /* -------------------------------- Media Queries */
 
