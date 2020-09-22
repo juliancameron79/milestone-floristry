@@ -76,7 +76,7 @@ a.nav-link {
 .footer-text-title,
 .footer-link,
 .text-rose-gold {
-  font-weight: bold;
+  font-weight: 500;
   color: #412025 !important;
 }
 
@@ -93,7 +93,7 @@ a.nav-link {
 }
 
 .bg-delivery-banner {
-  background: #b76e79 !important;
+  background: #86434d !important;
 }
 
 .bg-overlay {
@@ -159,6 +159,7 @@ a.nav-link {
     padding-top: 180px;
   }
 }
+
 /* Main page footer */
 .copy-right-container {
   background-color: #f1f1f1 !important;
@@ -201,4 +202,35 @@ span.brand--text,
 p.index-page-text {
   color: #412025 !important;
   font-weight: 500;
+}
+
+.card-brand--text {
+  color: #412025 !important;
+  font-weight: 700;
+}
+
+.product-title {
+  color: #412025;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+p.product-price {
+  color: #412025 !important;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.product-description-title {
+  color: #412025;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+h3.global-title {
+  color: #412025;
+  font-weight: 300;
+  text-transform: capitalize;
 }

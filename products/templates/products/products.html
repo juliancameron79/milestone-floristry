@@ -26,24 +26,24 @@
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
           <div class="card img-thumbnail card-container h-100 border-0">
             {% if product.image %}
-            <a href="">
+            <a href="{% url 'product_detail' product.id %}">
               <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
             </a>
             {% else %}
-            <a href="">
+            <a href="{% url 'product_detail' product.id %}">
               <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
             </a>
             {% endif %}
             <div class="overlay pb-0">
-              <p class="mb-0 brand--text">{{ product.name }}</p>
+              <p class="mb-0 card-brand--text">{{ product.name }}</p>
               <div class="card-footer pt-0 border-0 text-left">
                 <div class="row">
                   <div class="col">
-                    <p class="lead mb-0 text-left font-weight-bold brand--text">£{{ product.price }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold card-brand--text">£{{ product.price }}</p>
                     {% if product.rating %}
-                    <small class="text-muted brand--text"><i class="fas fa-star mr-1 brand--text"></i>{{ product.rating }} / 5</small>
+                    <small class="text-muted card-brand--text"><i class="fas fa-star mr-1 card-brand--text"></i>{{ product.rating }} / 5</small>
                     {% else %}
-                    <small class="text-muted brand--text">No Rating</small>
+                    <small class="text-muted card-brand--text">No Rating</small>
                     {% endif %}
                   </div>
                 </div>
