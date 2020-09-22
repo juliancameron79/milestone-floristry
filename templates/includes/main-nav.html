@@ -1,8 +1,14 @@
 <div class="collapse navbar-collapse d-inline-flex flex-wrap" id="main-nav">
   <ul class="navbar-nav d-flex flex-row w-auto mx-auto text-nowrap">
-    <li class="nav-item">
-      <a class="nav-link pr-2" href="{% url 'products' %}">All Products
+    <li class="nav-item dropdown">
+      <a class="nav-link pr-2" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Products
       </a>
+      <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+        <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+        <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+        <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+        <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+      </div>
     </li>
     <li class="nav-item">
       <a class="nav-link pr-2" href="{% url 'products' %}?category=hand_tied_bouquets">Hand-Tied Bouquets
