@@ -49,6 +49,15 @@ body {
   color: white;
 }
 
+.btn-outline-rose {
+  background: white;
+  color: #412025 !important;
+  border: 1px solid #412025;
+}
+
+.btn-rose-gold:hover,
+.btn-rose-gold:active,
+.btn-rose-gold:focus,
 .search-now-button:hover,
 .search-now-button:active,
 .search-now-button:focus,
