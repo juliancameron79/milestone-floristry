@@ -14,11 +14,9 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col text-center mt-3">
-      <h1 class="brand--text mb-5">Products</h1>
       {% for c in current_categories %}
-      <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.name }}">
-        <span class="p-2 mt-2 badge badge-white text-rose-gold rounded border border-rose-gold">{{ c.friendly_name }}</span>
-      </a>
+      <h1 class="global-title mb-5">{{ c.friendly_name }}</h1>
+
       {% endfor %}
       <hr class="w-100 mb-1">
     </div>

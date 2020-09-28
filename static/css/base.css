@@ -311,6 +311,7 @@ p.index-page-text {
   font-weight: 700;
 }
 
+.global-title,
 .product-title {
   color: #412025;
   font-weight: 300;
@@ -331,8 +332,8 @@ p.product-price {
   text-transform: capitalize;
 }
 
-h3.global-title {
+/* h3.global-title {
   color: #412025;
   font-weight: 300;
   text-transform: capitalize;
-}
+} */
