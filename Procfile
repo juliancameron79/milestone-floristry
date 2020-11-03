@@ -1,0 +1,1 @@
+web: gunicorn milestone_floristry.wsgi:application
