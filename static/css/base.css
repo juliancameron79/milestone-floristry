@@ -423,8 +423,50 @@ p.product-price {
   text-transform: capitalize;
 }
 
-/* h3.global-title {
-  color: #412025;
-  font-weight: 300;
-  text-transform: capitalize;
-} */
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+  .header-container {
+    padding-top: 116px;
+  }
+
+  body {
+    height: calc(100vh - 116px);
+  }
+
+  .display-4.logo-font.text-black {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    padding: 0.15rem;
+  }
+
+  .nav-link i.fa-lg {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  #delivery-banner h4 {
+    font-size: 0.9rem;
+  }
+
+  .btn.btn-outline-rose.rounded,
+  .btn.btn-black.rounded {
+    padding: 0.375rem 0.375rem;
+  }
+
+  .btn.btn-outline-rose.rounded.btn-lg,
+  .btn.btn-black.rounded.btn-lg {
+    padding: 0.375rem 0.375rem;
+    font-size: 0.75rem;
+  }
+
+  .increment-qty,
+  .decrement-qty {
+    padding: 0.25rem 0.5rem !important;
+  }
+}
