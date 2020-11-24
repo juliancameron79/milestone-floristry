@@ -259,6 +259,10 @@ input[name='q']::placeholder {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.main-content {
+  min-height: calc(100vh - 338px - 180px);
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
