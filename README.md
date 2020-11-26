@@ -1,8 +1,10 @@
 # Milestone Floristry
 
-For this project i'll be building a full-stack site based around business logic used to control a centrally-owned dataset. I will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service.
+For this project i'll be building a full-stack site based around business logic used to control a centrally-owned dataset. I will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service.<br><br>
 
 ![Markdown Logo](assets/wireframes/Milestone_floristry_device_mockups.png)
+
+<br>
 
 For this project, I will be creating an elegant website for a Floristry company that has been providing floral arrangements for the past two years. The website will increase company profile and showcase the florists range of products and services as well as providing inspiration and advice.
 
@@ -205,6 +207,8 @@ Bugs During Development
 - In the production version of Milestone Floristry, the database is a PostgreSQL database, hosted and provided by Heroku.
 
 ### Milestone Floristry Data Models:
+
+- Click <a href="assets/wireframes/msp4 tagphoto.pdf">here</a> to see database design
 
 The user model used in this project is provided by Django. You can find more information about this <a href="https://docs.djangoproject.com/en/3.0/ref/contrib/auth/">here</a>
 
