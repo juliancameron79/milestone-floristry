@@ -208,7 +208,7 @@ Bugs During Development
 
 ### Milestone Floristry Data Models:
 
-- Click <a href="assets/wireframes/msp4 tagphoto.pdf">here</a> to see database design
+- Click <a href="assets/wireframes/msp4_tagphoto.pdf">here</a> to see database design
 
 The user model used in this project is provided by Django. You can find more information about this <a href="https://docs.djangoproject.com/en/3.0/ref/contrib/auth/">here</a>
 
